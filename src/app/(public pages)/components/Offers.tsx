@@ -6,7 +6,7 @@ function Offers() {
     id: string;
     name: string;
   }
-  let offers: Offer[] = [
+  const offers: Offer[] = [
     { id: "1", name: "Sell It For Me" },
     { id: "2", name: "Verify Auction List" },
     { id: "3", name: "Car Inspection" },

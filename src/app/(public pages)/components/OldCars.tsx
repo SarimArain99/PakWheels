@@ -15,7 +15,7 @@ function OldCars() {
     price: number;
     city: string;
   }
-  let carsData: Type[] = [
+  const carsData: Type[] = [
     {
       id: "11",
       name: "Mercedes-Benz",

@@ -15,7 +15,7 @@ function Managed() {
     price: number;
     city: string;
   }
-  let carsData: Type[] = [
+  const carsData: Type[] = [
     { id: "1", name: "Honda Civic", price: 1500000, city: "Karachi" },
     { id: "2", name: "Suzuki Alto", price: 800000, city: "Lahore" },
     { id: "3", name: "Toyota Corolla", price: 2000000, city: "Islamabad" },

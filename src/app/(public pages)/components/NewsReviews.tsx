@@ -90,7 +90,7 @@ function NewsReviews() {
                 Tesla Model 3 Review
               </h3>
               <p>
-                A closer look at the Tesla Model 3's innovative features,
+                A closer look at the Tesla Model 3&apos;s innovative features,
                 performance, and what sets it apart from its competitors.
               </p>
             </div>

@@ -14,7 +14,7 @@ function UsedCars() {
     id: string;
     name: string;
   }
-  let carsName: Type[] = [
+  const carsName: Type[] = [
     { id: "1", name: "Two Seater" },
     { id: "2", name: "600cc" },
     { id: "3", name: "Family Cars" },
@@ -37,7 +37,7 @@ function UsedCars() {
     { id: "20", name: "Performance Cars" },
   ];
 
-  let make: Type[] = [
+  const make: Type[] = [
     { id: "1", name: "Toyota" },
     { id: "2", name: "Honda" },
     { id: "3", name: "Ford" },
@@ -50,7 +50,7 @@ function UsedCars() {
     { id: "10", name: "Hyundai" },
   ];
 
-  let carType: Type[] = [
+  const carType: Type[] = [
     { id: "1", name: "SUV" },
     { id: "2", name: "Mini Van" },
     { id: "3", name: "Sedan" },

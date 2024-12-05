@@ -9,7 +9,7 @@ import Image from "next/image";
 import React from "react";
 
 function Bikes() {
-  let bikesData: { id: string; name: string; price: number; city: string }[] = [
+  const bikesData: { id: string; name: string; price: number; city: string }[] = [
     { id: "1", name: "Yamaha YBR 125", price: 320000, city: "Lahore" },
     { id: "2", name: "Suzuki GS 150", price: 290000, city: "Karachi" },
     { id: "3", name: "Honda CB 150F", price: 350000, city: "Islamabad" },

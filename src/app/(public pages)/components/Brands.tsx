@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 
 function Brands() {
-  let brands = [
+  const brands = [
     { id: "1", name: "Toyota" },
     { id: "2", name: "Honda" },
     { id: "3", name: "Ford" },

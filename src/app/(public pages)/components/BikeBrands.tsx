@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 
 function BikeBrands() {
-  let bikeBrands = [
+  const bikeBrands = [
     { id: "1", name: "Honda" },
     { id: "2", name: "Yamaha" },
     { id: "3", name: "Kawasaki" },
