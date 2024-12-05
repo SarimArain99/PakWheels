@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Logo from "../../public/logo-tyre.png";
 
 export const metadata: Metadata = {
   title: "Buy & Sell Cars, Bikes & Autoparts",
@@ -13,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <link rel="shortcut icon" href="/logo-tyre.png" type="image/x-icon" />
+      <link rel="shortcut icon" href={Logo.src} type="image/x-icon" />
       <body>{children}</body>
     </html>
   );
